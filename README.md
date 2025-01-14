@@ -1,18 +1,21 @@
 # Exercise diary / Firstname Lastname (template)
 
-This file is used to track the total completion of the exercises and for self-assessment/comments. Replace `Firstname` and `Lastname` with your actual name. The file should be updated after working on each exercise set. You can use the GitLab markdown checklist feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
+This file is used to track the total completion of the exercises and for self-assessment/comments. 
+
+- Replace `Firstname` and `Lastname` with your actual name. 
+- This file should be updated after working on each exercise set.
+- Each exercise set is documented in a separate markdown file in the root directory of each folder.
+- Use GitLab's [markdown task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists) feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
 
 ```markdown
-- [x] Task 1: 2/2 points - All done
-- [~] Task 2: 0/3 points - Not implemented
-- [ ] Task 3: 0/3 points - Not started 
+- [x] Task 1: 2/2 points - Works as expected
+- [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
+- [~] Task 3: 0/3 points - Did not have time  
+- [ ] Task 4: 0/5 points - Not started
+- [ ] Task 5: 0/2 points - Not started 
 ```
 
-Renders as:
-- [x] Task 1: 2/2 points - All done
-- [~] Task 2: 0/3 points - Not implemented
-- [ ] Task 3: 0/3 points - Not started 
-
+The above renders as the example task list under Exercise set 1.
 
 > NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Complete the Moodle submission, when you want feedback and the exercise set to be graded.
 
@@ -34,15 +37,98 @@ Total 5/15
 
 ### [Exercise set 2](E02/README.md)
 
-- [x] Task 1: 2/4 points - Implemented reading and creating
-- [x] Task 2: 4/4 points - Works as expected
-- [x] Task 3: 1/3 points - Doesn't work on specific routes
-- [x] Task 4: 3/4 points - Doesn't display all the data
+- [ ] Task 1: 0/4 points - Comments
+- [ ] Task 2: 0/4 points - Comments
+- [ ] Task 3: 0/3 points - Comments
+- [ ] Task 4: 0/4 points - Comments
 
-Total 10/15
+Total 0/15
 
 ------------------
 
 ### [Exercise set 3](E03/README.md)
 
-....
+- [ ] Task 1: 0/1 points - Comments
+- [ ] Task 2: 0/2 points - Comments
+- [ ] Task 3: 0/5 points - Comments
+- [ ] Task 4: 0/7 points - Comments
+
+Total 0/15
+
+------------------
+
+### [Exercise set 4](E04/README.md)
+
+- [ ] Task 1: 0/3 points - Comments
+- [ ] Task 2: 0/5 points - Comments
+- [ ] Task 3: 0/4 points - Comments
+- [ ] Task 4: 0/4 points - Comments
+- [ ] Task 5: 0/4 points - Comments
+
+Total 0/20
+
+------------------
+
+### [Exercise set 5](E05/README.md)
+
+- [ ] Task 1: 0/2 points - Comments
+- [ ] Task 2: 0/2 points - Comments
+- [ ] Task 3: 0/4 points - Comments
+- [ ] Task 4: 0/3 points - Comments
+- [ ] Task 5: 0/3 points - Comments
+- [ ] Task 6: 0/3 points - Comments
+
+Total 0/17
+
+------------------
+
+### [Exercise set 6](E06/README.md)
+
+- [ ] Task 1: 0/4 points - Comments
+- [ ] Task 2: 0/3 points - Comments
+- [ ] Task 3: 0/4 points - Comments
+- [ ] Task 4: 0/4 points - Comments
+
+Total 0/15
+
+------------------
+
+### [Exercise set 7](E07/README.md)
+
+- [ ] Task 1: 0/7 points - Comments
+- [ ] Task 2: 0/8 points - Comments
+
+Total 0/15
+
+------------------
+
+### [Exercise set 8](E08/README.md)
+
+- [ ] Task 1: 0/3 points - Comments
+- [ ] Task 2: 0/4 points - Comments
+- [ ] Task 3: 0/5 points - Comments
+- [ ] Task 4: 0/5 points - Comments
+
+Total 0/17
+
+------------------
+
+### [Exercise set 9](E09/README.md)
+
+- [ ] Task 1: 0/5 points - Comments
+- [ ] Task 2: 0/3 points - Comments
+- [ ] Task 3: 0/5 points - Comments
+- [ ] Task 4: 0/6 points - Comments
+
+Total 0/19
+
+------------------
+
+### [Exercise set 10](E10/README.md)
+
+- [ ] Task 1: 0/2 points - Comments
+- [ ] Task 2: 0/3 points - Comments
+- [ ] Task 3: 0/5 points - Comments
+- [ ] Task 4: 0/7 points - Comments
+
+Total 0/17
