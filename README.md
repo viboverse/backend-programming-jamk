@@ -1,16 +1,16 @@
-# Exercise diary (template)
+# Exercise diary / Firstname Lastname (template)
 
-This file is used to track the total completion of the exercises and for self-assessment/comments. The file should be updated after working on each exercise set. You can use the GitLab markdown checklist feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
+This file is used to track the total completion of the exercises and for self-assessment/comments. Replace `Firstname` and `Lastname` with your actual name. The file should be updated after working on each exercise set. You can use the GitLab markdown checklist feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
 
 ```markdown
-- [x] Task 1: 2/2 points - Works as expected
-- [~] Task 2: 2/3 points - Partially correct, did not implement the function correctly
+- [x] Task 1: 2/2 points - All done
+- [~] Task 2: 0/3 points - Not implemented
 - [ ] Task 3: 0/3 points - Not started 
 ```
 
 Renders as:
-- [x] Task 1: 2/2 points - Works as expected
-- [~] Task 2: 2/3 points - Partially correct, did not implement the function correctly
+- [x] Task 1: 2/2 points - All done
+- [~] Task 2: 0/3 points - Not implemented
 - [ ] Task 3: 0/3 points - Not started 
 
 
