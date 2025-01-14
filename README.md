@@ -1,10 +1,22 @@
 # Exercise diary (template)
 
-This file is used to track the total completion of the exercises and as self-assessment. The file should be updated after working on each exercise set. You can use the markdown checklist feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
+This file is used to track the total completion of the exercises and for self-assessment/comments. The file should be updated after working on each exercise set. You can use the GitLab markdown checklist feature to represent your progress: x in brackets for completed (either fully or partially), squiggly line in brackets or empty brackets for not implemented/started.
 
-NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Make the Moodle submission, when you want feedback and the exercise set to be graded.
+```markdown
+- [x] Task 1: 2/2 points - Works as expected
+- [~] Task 2: 2/3 points - Partially correct, did not implement the function correctly
+- [ ] Task 3: 0/3 points - Not started 
+```
 
-**Total points: xx/165**
+Renders as:
+- [x] Task 1: 2/2 points - Works as expected
+- [~] Task 2: 2/3 points - Partially correct, did not implement the function correctly
+- [ ] Task 3: 0/3 points - Not started 
+
+
+> NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Complete the Moodle submission, when you want feedback and the exercise set to be graded.
+
+#### **Total points: xx/165**
 
 ------------------
 
@@ -13,8 +25,8 @@ NOTICE: There are separate return boxes in Moodle for all the individual exercis
 - [x] Task 1: 2/2 points - Works as expected
 - [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
 - [~] Task 3: 0/3 points - Did not have time  
-- [~] Task 4: 0/5 points - Did not have time  
-- [~] Task 5: 0/2 points - Did not have time  
+- [ ] Task 4: 0/5 points - Not started
+- [ ] Task 5: 0/2 points - Not started 
 
 Total 5/15
 
