@@ -19,8 +19,9 @@ Use GitLab's [markdown task list](https://docs.gitlab.com/ee/user/markdown.html#
 The above renders as the example task list under Exercise set 1.
 
 > NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Complete the Moodle submission, when you want feedback and the exercise set to be graded.
+
+You can remove this section fenced in `>>>` after you have read the instructions.
 >>>
-You can remove the section fenced in `>>>` after you have read the instructions.
 
 #### **Total points: xx/165**
 
