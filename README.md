@@ -23,7 +23,7 @@ The above renders as the example task list under Exercise set 1.
 You can remove this section fenced in `>>>` after you have read the instructions.
 >>>
 
-#### **Total points: xx/165**
+#### **Total points: xx/176**
 
 ------------------
 
@@ -31,22 +31,25 @@ You can remove this section fenced in `>>>` after you have read the instructions
 
 - [x] Task 1: 2/2 points - Works as expected
 - [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
-- [~] Task 3: 0/3 points - Did not have time  
-- [ ] Task 4: 0/5 points - Not started
-- [ ] Task 5: 0/2 points - Not started 
+- [~] Task 3: 0/4 points - Did not have time  
+- [ ] Task 4: 0/3 points - Not started
+- [ ] Task 5: 0/5 points - Not started 
 
-Total 5/15
+Total 5/17
 
 ------------------
 
 ### [Exercise set 2](E02/README.md)
 
-- [ ] Task 1: 0/4 points - Comments
+- [ ] Task 1: 0/2 points - Comments
 - [ ] Task 2: 0/4 points - Comments
 - [ ] Task 3: 0/3 points - Comments
-- [ ] Task 4: 0/4 points - Comments
+- [ ] Task 4: 0/6 points - Comments
+- [ ] Task 5: 0/4 points - Comments
+- [ ] Task 6: 0/3 points - Comments
+- [ ] Task 7: 0/2 points - Comments
 
-Total 0/15
+Total 0/24
 
 ------------------
 
