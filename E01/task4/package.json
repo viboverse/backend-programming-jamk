@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node file-ops.js",
+    "dev": "node --watch file-ops.js"
+  }
+}

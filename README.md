@@ -1,19 +1,19 @@
 # Exercise diary / Firstname Lastname (template)
 
->>>
-This file is used to track the total completion of the exercises and for self-assessment/comments. Each exercise set is documented in a separate markdown file in the root directory of each folder.
+> > > This file is used to track the total completion of the exercises and for self-assessment/comments. Each exercise set is documented in a separate markdown file in the root directory of each folder.
 
-Use GitLab's [markdown task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists) feature to represent your progress:  
-  - x in brackets for completed (either fully or partially) 
-  - squiggly line in brackets 
-  - empty brackets for not implemented/started.
+Use GitLab's [markdown task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists) feature to represent your progress:
+
+- x in brackets for completed (either fully or partially)
+- squiggly line in brackets
+- empty brackets for not implemented/started.
 
 ```markdown
 - [x] Task 1: 2/2 points - Works as expected
 - [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
-- [~] Task 3: 0/3 points - Did not have time  
+- [~] Task 3: 0/3 points - Did not have time
 - [ ] Task 4: 0/5 points - Not started
-- [ ] Task 5: 0/2 points - Not started 
+- [ ] Task 5: 0/2 points - Not started
 ```
 
 The above renders as the example task list under Exercise set 1.
@@ -21,23 +21,24 @@ The above renders as the example task list under Exercise set 1.
 > NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Complete the Moodle submission, when you want feedback and the exercise set to be graded.
 
 You can remove this section fenced in `>>>` after you have read the instructions.
->>>
+
+> > >
 
 #### **Total points: xx/176**
 
-------------------
+---
 
 ### [Exercise set 1](E01/README.md)
 
 - [x] Task 1: 2/2 points - Works as expected
-- [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
-- [~] Task 3: 0/4 points - Did not have time  
-- [ ] Task 4: 0/3 points - Not started
-- [ ] Task 5: 0/5 points - Not started 
+- [x] Task 2: 2/3 points - Works as expected
+- [x] Task 3: 4/4 points - Works as expected
+- [x] Task 4: 3/3 points - Works as expected
+- [x] Task 5: 5/5 points - Works as expected - AI10%
 
-Total 5/17
+Total 17/17
 
-------------------
+---
 
 ### [Exercise set 2](E02/README.md)
 
@@ -51,7 +52,7 @@ Total 5/17
 
 Total 0/24
 
-------------------
+---
 
 ### [Exercise set 3](E03/README.md)
 
@@ -62,7 +63,7 @@ Total 0/24
 
 Total 0/15
 
-------------------
+---
 
 ### [Exercise set 4](E04/README.md)
 
@@ -74,7 +75,7 @@ Total 0/15
 
 Total 0/20
 
-------------------
+---
 
 ### [Exercise set 5](E05/README.md)
 
@@ -87,7 +88,7 @@ Total 0/20
 
 Total 0/17
 
-------------------
+---
 
 ### [Exercise set 6](E06/README.md)
 
@@ -98,7 +99,7 @@ Total 0/17
 
 Total 0/15
 
-------------------
+---
 
 ### [Exercise set 7](E07/README.md)
 
@@ -107,7 +108,7 @@ Total 0/15
 
 Total 0/15
 
-------------------
+---
 
 ### [Exercise set 8](E08/README.md)
 
@@ -118,7 +119,7 @@ Total 0/15
 
 Total 0/17
 
-------------------
+---
 
 ### [Exercise set 9](E09/README.md)
 
@@ -129,7 +130,7 @@ Total 0/17
 
 Total 0/19
 
-------------------
+---
 
 ### [Exercise set 10](E10/README.md)
 
