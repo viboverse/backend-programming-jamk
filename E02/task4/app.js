@@ -1,26 +1,3 @@
-# Exercise set 02
-
-## Task 1
-
-![task 1](./screenshots/task1-1.png)
-![task 1](./screenshots/task1-1.png)
-
-## Task 2
-
-![task 2](./screenshots/task2-1.png)
-![task 2](./screenshots/task2-2.png)
-![task 2](./screenshots/task2-5.png)
-![task 2](./screenshots/task2-3.png)
-![task 2](./screenshots/task2-4.png)
-
-## Task 3
-
-![task 3](./screenshots/task3-1.png)
-![task 3](./screenshots/task3-2.png)
-
-## Task 4
-
-```js
 import fs from "fs/promises";
 import express from "express";
 
@@ -142,30 +119,3 @@ app.delete("/albums/:id", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
 });
-```
-
-## Task 5
-
-![task 5](./screenshots/task5-1.png)
-![task 5](./screenshots/task5-2.png)
-![task 5](./screenshots/task5-3.png)
-![task 5](./screenshots/task5-4.png)
-
-# Delete Request
-
-![task 5](./screenshots/task5-5.png)
-![task 5](./screenshots/task5-6.png)
-![task 5](./screenshots/task5-7.png)
-
-## Task 6
-
-![task 6](./screenshots/task6-1.png)
-![task 6](./screenshots/task6-2.png)
-![task 6](./screenshots/task6-3.png)
-![task 6](./screenshots/task6-4.png)
-![task 6](./screenshots/task6-5.png)
-![task 6](./screenshots/task6-6.png)
-
-## Task 7
-
-![task 7](./screenshots/task7.png)

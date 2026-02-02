@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Express API Test</title>
+  </head>
+  <body>
+    <h1>User API Test</h1>
+    <div id="users"></div>
+
+    <form id="user-form">
+      <input type="text" id="name" placeholder="Name..." />
+      <input type="text" id="email" placeholder="Email..." />
+      <button>Submit</button>
+    </form>
+
+    <script>
+      async function fetchUsers() {
+        try {
+          const response = await fetch("/api/users");
+          const users = await response.json();
+          document.getElementById("users").innerHTML = "<h2>Users:</h2>" + users.map((u) => `<p>${u.name} - ${u.email}</p>`).join("");
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      }
+
+      const form = document.getElementById("user-form");
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        const response = await fetch("/api/users", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+          }),
+        });
+
+        if (response.ok) {
+          fetchUsers();
+          form.reset();
+        }
+      });
+
+      fetchUsers();
+    </script>
+  </body>
+</html>

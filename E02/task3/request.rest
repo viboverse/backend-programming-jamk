@@ -1,0 +1,7 @@
+POST http://localhost:5001/api/users
+Content-Type:application/json
+
+{
+    "name": "newUser",
+    "email": "example@gmai.com"
+}

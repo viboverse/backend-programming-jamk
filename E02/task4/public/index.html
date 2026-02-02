@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+  </head>
+  <body>
+    <h1>Task 5</h1>
+
+    <h2>Enter your favorite track:</h2>
+
+    <form id="form">
+      <input type="text" name="artist" id="artist" placeholder="Artist..." />
+      <input type="text" name="title" id="title" placeholder="title..." />
+      <input type="number" name="year" id="year" placeholder="Yeaar..." />
+      <input type="text" name="genre" id="genre" placeholder="Genre..." />
+      <input type="number" name="tracks" id="tracks" placeholder="Tracks..." />
+      <button>Submit</button>
+    </form>
+  </body>
+
+  <script>
+    const form = document.getElementById("form");
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      const artist = document.getElementById("artist").value;
+      const title = document.getElementById("title").value;
+      const year = document.getElementById("year").value;
+      const genre = document.getElementById("genre").value;
+      const tracks = document.getElementById("tracks").value;
+      const response = await fetch("/albums", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          artist,
+          title,
+          year,
+          genre,
+          tracks,
+        }),
+      });
+
+      if (response.ok) {
+        form.reset();
+      }
+    });
+  </script>
+</html>

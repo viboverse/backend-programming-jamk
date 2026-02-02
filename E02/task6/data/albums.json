@@ -1,0 +1,12 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "artist": "testArtist",
+      "title": "update ",
+      "year": 2024,
+      "genre": "Rock",
+      "tracks": 10
+    }
+  ]
+}
