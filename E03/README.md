@@ -2,10 +2,21 @@
 
 ## Task 1
 
-Add documentation for the completion of Task 1 here.
+![task 1](./screenshots/task1.png)
 
 ## Task 2
 
-Add documentation for the completion of Task 2 here.
+![task 2](./screenshots/task2-1.png)
+![task 2](./screenshots/task2-2.png)
 
-## and so on...
+## Task 3
+
+![task 3](./screenshots/task3-1.png)
+![task 3](./screenshots/task3-2.png)
+
+## Task 4
+
+![task 4](./screenshots/task4-4.png)
+![task 4](./screenshots/task4-3.png)
+![task 4](./screenshots/task4-5.png)
+![task 4](./screenshots/task4-6.png)

@@ -24,7 +24,7 @@ You can remove this section fenced in `>>>` after you have read the instructions
 
 > > >
 
-#### **Total points: 41/176**
+#### **Total points: 56/176**
 
 ---
 
@@ -48,7 +48,7 @@ Total 17/17
 - [x] Task 4: 6/6 points - Comments - AI10%
 - [x] Task 5: 4/4 points - Comments - AI10%
 - [x] Task 6: 3/3 points - Comments - AI10%
-- [x] Task 7: 2/2 points - Comments - AI30%
+- [x] Task 7: 2/2 points - Comments - AI20%
 
 Total 24/24
 
@@ -56,12 +56,12 @@ Total 24/24
 
 ### [Exercise set 3](E03/README.md)
 
-- [ ] Task 1: 0/1 points - Comments
-- [ ] Task 2: 0/2 points - Comments
-- [ ] Task 3: 0/5 points - Comments
-- [ ] Task 4: 0/7 points - Comments
+- [x] Task 1: 1/1 points - Comments
+- [x] Task 2: 2/2 points - Comments
+- [x] Task 3: 5/5 points - Comments
+- [x] Task 4: 7/7 points - Comments
 
-Total 0/15
+Total 15/15
 
 ---
 
