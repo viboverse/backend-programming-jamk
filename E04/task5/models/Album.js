@@ -1,12 +1,3 @@
-# Exercise set 04
-
-## Task 1 - ESLint setup and configuration [3p]
-
-![task 1](./screenshots/task1.png)
-
-## Task 2 - Mongoose schema validation [5p]
-
-```js
 import { Schema, model } from "mongoose";
 
 const albumSchema = new Schema({
@@ -28,7 +19,18 @@ const albumSchema = new Schema({
     type: Number,
     required: [true, "Release year is required"],
     min: [1900, "Release year must be 1900 or later"],
-    max: [new Date().getFullYear(), "Release year cannot be in the future"],
+    validate: {
+      validator: function (enteredYear) {
+        const currYear = new Date().getFullYear();
+
+        if (enteredYear <= currYear) {
+          return true;
+        }
+
+        return false;
+      },
+      message: "The Release year can not be in the future!",
+    },
   },
   genre: {
     type: String,
@@ -44,53 +46,6 @@ const albumSchema = new Schema({
     min: [1, "Album must have at least 1 track"],
     max: [100, "Album cannot have more than 100 tracks"],
   },
-});
-
-export default model("Album", albumSchema);
-```
-
-## Task 3 - Custom validation methods [4p]
-
-```js
-  year: {
-    type: Number,
-    required: [true, "Release year is required"],
-    min: [1900, "Release year must be 1900 or later"],
-    validate: {
-      validator: function (enteredYear) {
-        const currYear = new Date().getFullYear();
-
-        if (enteredYear <= currYear) {
-          return true;
-        }
-
-        return false;
-      },
-      message: "The Release year can not be in the future!",
-    },
-  }
-```
-
-## Task 4 - Schema methods and virtuals [4p]
-
-```js
-albumSchema.virtual("ageInYear").get(function () {
-  const currYear = new Date().getFullYear();
-  return currYear - this.year;
-});
-
-albumSchema.methods.isClassic = function () {
-  return this.ageInYears > 25;
-};
-
-albumSchema.statics.findByGenre = function (genre) {
-  return this.find({ genre: genre });
-};
-```
-
-## Task 5 - Advanced validation with async validators [4p]
-
-```js
   artistTitle: {
     type: String,
     validate: {
@@ -114,15 +69,29 @@ albumSchema.statics.findByGenre = function (genre) {
       message: "An album with this artist and title already exists",
     },
   },
+});
 
-
-
-  albumSchema.pre("validate", function (next) {
+// Pre-validate hook to populate artistTitle
+albumSchema.pre("validate", function (next) {
   if (this.artist && this.title) {
     this.artistTitle = `${this.artist}-${this.title}`;
   }
 });
 
-```
+albumSchema.virtual("ageInYears").get(function () {
+  const currYear = new Date().getFullYear();
+  return currYear - this.year;
+});
 
-![task 5](./screenshots/task5.png)
+albumSchema.methods.isClassic = function () {
+  return this.ageInYears > 25;
+};
+
+albumSchema.statics.findByGenre = function (genre) {
+  return this.find({ genre: genre });
+};
+
+albumSchema.set("toJSON", { virtuals: true });
+albumSchema.set("toObject", { virtuals: true });
+
+export default model("Album", albumSchema);

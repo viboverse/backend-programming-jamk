@@ -1,0 +1,52 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "artist": "Toto",
+      "title": "Toto IV",
+      "year": 1982,
+      "genre": "Pop",
+      "tracks": 10
+    },
+    {
+      "id": 3,
+      "artist": "Miles Davis",
+      "title": "Kind of Blue",
+      "year": 1959,
+      "genre": "Jazz",
+      "tracks": 5
+    },
+    {
+      "id": 4,
+      "artist": "Pink Floyd",
+      "title": "The Wall",
+      "year": 1979,
+      "genre": "Progressive Rock",
+      "tracks": 26
+    },
+    {
+      "id": 5,
+      "artist": "Coldplay",
+      "title": "Test",
+      "year": 2005,
+      "genre": "Pop",
+      "tracks": 12
+    },
+    {
+      "id": 6,
+      "artist": "Coldplay",
+      "title": "Test",
+      "year": 2005,
+      "genre": "Pop",
+      "tracks": 12
+    },
+    {
+      "id": 7,
+      "artist": "test",
+      "title": "Test",
+      "year": 22222,
+      "genre": "Pop",
+      "tracks": 32
+    }
+  ]
+}
