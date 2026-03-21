@@ -24,7 +24,7 @@ You can remove this section fenced in `>>>` after you have read the instructions
 
 > > >
 
-#### **Total points: 93/176**
+#### **Total points: 108/176**
 
 ---
 
@@ -42,13 +42,13 @@ Total 17/17
 
 ### [Exercise set 2](E02/README.md)
 
-- [x] Task 1: 2/2 points - Comments
-- [x] Task 2: 4/4 points - Comments
-- [x] Task 3: 3/3 points - Comments
-- [x] Task 4: 6/6 points - Comments - AI10%
-- [x] Task 5: 4/4 points - Comments - AI10%
-- [x] Task 6: 3/3 points - Comments - AI10%
-- [x] Task 7: 2/2 points - Comments - AI20%
+- [x] Task 1: 2/2 points - Works as expected
+- [x] Task 2: 4/4 points - Works as expected
+- [x] Task 3: 3/3 points - Works as expected
+- [x] Task 4: 6/6 points - Works as expected - AI10%
+- [x] Task 5: 4/4 points - Works as expected - AI10%
+- [x] Task 6: 3/3 points - Works as expected - AI10%
+- [x] Task 7: 2/2 points - Works as expected - AI20%
 
 Total 24/24
 
@@ -56,10 +56,10 @@ Total 24/24
 
 ### [Exercise set 3](E03/README.md)
 
-- [x] Task 1: 1/1 points - Comments
-- [x] Task 2: 2/2 points - Comments
-- [x] Task 3: 5/5 points - Comments
-- [x] Task 4: 7/7 points - Comments
+- [x] Task 1: 1/1 points - Works as expected
+- [x] Task 2: 2/2 points - Works as expected
+- [x] Task 3: 5/5 points - Works as expected
+- [x] Task 4: 7/7 points - Works as expected
 
 Total 15/15
 
@@ -67,11 +67,11 @@ Total 15/15
 
 ### [Exercise set 4](E04/README.md)
 
-- [x] Task 1: 3/3 points - Comments
-- [x] Task 2: 5/5 points - Comments
-- [x] Task 3: 4/4 points - Comments
-- [x] Task 4: 4/4 points - Comments
-- [x] Task 5: 4/4 points - Comments - AI60%
+- [x] Task 1: 3/3 points - Works as expected
+- [x] Task 2: 5/5 points - Works as expected
+- [x] Task 3: 4/4 points - Works as expected
+- [x] Task 4: 4/4 points - Works as expected
+- [x] Task 5: 4/4 points - Works as expected - AI60%
 
 Total 20/20
 
@@ -79,12 +79,12 @@ Total 20/20
 
 ### [Exercise set 5](E05/README.md)
 
-- [x] Task 1: 2/2 points - Comments
-- [x] Task 2: 2/2 points - Comments - AI30%
-- [X] Task 3: 4/4 points - Comments - AI20%
-- [X] Task 4: 3/3 points - Comments
-- [X] Task 5: 3/3 points - Comments
-- [X] Task 6: 3/3 points - Comments - AI30%
+- [x] Task 1: 2/2 points - Works as expected
+- [x] Task 2: 2/2 points - Works as expected - AI30%
+- [x] Task 3: 4/4 points - Works as expected - AI20%
+- [x] Task 4: 3/3 points - Works as expected
+- [x] Task 5: 3/3 points - Works as expected
+- [x] Task 6: 3/3 points - Works as expected - AI30%
 
 Total 17/17
 
@@ -92,10 +92,10 @@ Total 17/17
 
 ### [Exercise set 6](E06/README.md)
 
-- [ ] Task 1: 0/4 points - Comments
-- [ ] Task 2: 0/3 points - Comments
-- [ ] Task 3: 0/4 points - Comments
-- [ ] Task 4: 0/4 points - Comments
+- [x] Task 1: 4/4 points - Works as expected - AI60%
+- [x] Task 2: 3/3 points - Works as expected
+- [x] Task 3: 3/4 points - Works as expected - AI10%
+- [x] Task 4: 4/4 points - Works as expected - AI90%
 
 Total 0/15
 
