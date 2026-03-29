@@ -1,30 +1,6 @@
-# Exercise diary / Firstname Lastname (template)
+# Exercise diary / Vahab Afsharian
 
-> > > This file is used to track the total completion of the exercises and for self-assessment/comments. Each exercise set is documented in a separate markdown file in the root directory of each folder.
-
-Use GitLab's [markdown task list](https://docs.gitlab.com/ee/user/markdown.html#task-lists) feature to represent your progress:
-
-- x in brackets for completed (either fully or partially)
-- squiggly line in brackets
-- empty brackets for not implemented/started.
-
-```markdown
-- [x] Task 1: 2/2 points - Works as expected
-- [x] Task 2: 2/3 points - Partially correct, did not implement the function correctly
-- [~] Task 3: 0/3 points - Did not have time
-- [ ] Task 4: 0/5 points - Not started
-- [ ] Task 5: 0/2 points - Not started
-```
-
-The above renders as the example task list under Exercise set 1.
-
-> NOTICE: There are separate return boxes in Moodle for all the individual exercise sets. Complete the Moodle submission, when you want feedback and the exercise set to be graded.
-
-You can remove this section fenced in `>>>` after you have read the instructions.
-
-> > >
-
-#### **Total points: 108/176**
+#### **Total points: 115/176**
 
 ---
 
