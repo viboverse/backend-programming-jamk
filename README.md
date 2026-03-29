@@ -103,10 +103,10 @@ Total 15/15
 
 ### [Exercise set 7](E07/README.md)
 
-- [ ] Task 1: 0/7 points - Comments
+- [x] Task 1: 0/7 points - Works as expected - AI30%
 - [ ] Task 2: 0/8 points - Comments
 
-Total 0/15
+Total 7/15
 
 ---
 
