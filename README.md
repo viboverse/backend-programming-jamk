@@ -97,7 +97,7 @@ Total 17/17
 - [x] Task 3: 3/4 points - Works as expected - AI10%
 - [x] Task 4: 4/4 points - Works as expected - AI90%
 
-Total 0/15
+Total 15/15
 
 ---
 
