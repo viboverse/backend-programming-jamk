@@ -227,3 +227,51 @@ test("handles deleting a non-existent album gracefully", async () => {
 ![task 3](./screenshots/task3-1.png)
 
 ## Task 4 - Application deployment [5p]
+
+First I add vercel config to the root of my project, Since this is not a React or nextjs project we need to tell to vercel this in Node.js API. It was pain in the ass and I asked AI to generate this config cuz I could not load the frontend properly in the live production!
+
+```json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/albums(.*)",
+      "dest": "/app.js"
+    },
+    {
+      "src": "/api/auth/(.*)",
+      "dest": "/app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
+```
+
+Then, since I usually have been pushing the repos to both GitLab and GitHub, in my vercel my github is connected and give me the power to depoloy the repo from the github
+
+![task 4](./screenshots/task4-1.png)
+
+Now its time to config the project setting
+
+![task 4](./screenshots/task4-2.png)
+_I did NOT add TEST_MONGO_URI cuz vercel is for production and that var which is for testing is used locally_
+
+![task 4](./screenshots/task4-3.png)
+
+The deployment is complete. You can now visit the live application at:
+[https://backend-programming-jamk.vercel.app/](https://backend-programming-jamk.vercel.app/)
+
+![task 4](./screenshots/task4-4.png)

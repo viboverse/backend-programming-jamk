@@ -1,6 +1,6 @@
 # Exercise diary / Vahab Afsharian
 
-#### **Total points: 115/176**
+#### **Total points: 132/176**
 
 ---
 
@@ -88,12 +88,12 @@ Total 7/15
 
 ### [Exercise set 8](E08/README.md)
 
-- [ ] Task 1: 0/3 points - Comments
-- [ ] Task 2: 0/4 points - Comments
-- [ ] Task 3: 0/5 points - Comments
-- [ ] Task 4: 0/5 points - Comments
+- [x] Task 1: 3/3 points - Works as expected - AI20%
+- [x] Task 2: 4/4 points - Works as expected
+- [x] Task 3: 5/5 points - Works as expected
+- [x] Task 4: 5/5 points - Works as expected - AI10%
 
-Total 0/17
+Total 17/17
 
 ---
 
