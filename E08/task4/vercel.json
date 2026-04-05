@@ -9,6 +9,18 @@
   "routes": [
     {
       "src": "/(.*)",
+      "dest": "public/$1"
+    },
+    {
+      "src": "/",
+      "dest": "public/index.html"
+    },
+    {
+      "src": "/albums(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/api/auth(.*)",
       "dest": "app.js"
     }
   ]
